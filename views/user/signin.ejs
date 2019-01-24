@@ -1,0 +1,15 @@
+<% include ../partials/header %> 
+<div class=row>
+    <div class="col-md-4 col-md-offset-4">
+        <h1>Sign In!</h1>
+
+        <form action="/user/signin" method="POST">
+            <input type="text" name="username" placeholder="username">
+            <input type="password" name="password" placeholder="password">
+            <!--<input type="hidden" name="csrf" value="">-->
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+</div>
+
+<% include ../partials/footer %> 
